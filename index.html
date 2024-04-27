@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Shop</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jewelry Shop</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to our Jewelry Shop</h2>
+        <!-- Home page content goes here -->
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="ring.jpg" alt="Ring">
+            <p>Description of Rings</p>
+        </div>
+        <div class="product">
+            <img src="earrings.jpg" alt="Earrings">
+            <p>Description of Earrings</p>
+        </div>
+        <div class="product">
+            <img src="bracelet.jpg" alt="Bracelet">
+            <p>Description of Bracelets</p>
+        </div>
+        <div class="product">
+            <img src="chain.jpg" alt="Chain">
+            <p>Description of Chains</p>
+        </div>
+        <div class="product">
+            <img src="watch.jpg" alt="Watch">
+            <p>Description of Watches</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Jewelry Shop</p>
+    </footer>
+</body>
+</html>
